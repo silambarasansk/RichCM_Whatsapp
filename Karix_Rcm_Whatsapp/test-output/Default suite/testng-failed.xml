@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="rcmTextPayloads.Text_message">
+      <class name="rcmLocationPayloads.Location_Message">
         <methods>
-          <include name="send_text"/>
+          <include name="send_location"/>
         </methods>
-      </class> <!-- rcmTextPayloads.Text_message -->
+      </class> <!-- rcmLocationPayloads.Location_Message -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

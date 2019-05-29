@@ -2,106 +2,106 @@
 <testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
   <reporter-output>
   </reporter-output>
-  <suite name="Karix_RCM_Whatsapp_Test_Suite" duration-ms="5384" started-at="2019-05-29T06:59:13Z" finished-at="2019-05-29T06:59:19Z">
+  <suite name="Karix_RCM_Whatsapp_Test_Suite" duration-ms="6568" started-at="2019-05-29T09:58:34Z" finished-at="2019-05-29T09:58:40Z">
     <groups>
     </groups>
-    <test name="RCM_HSMTemplate_Payloads_Test" duration-ms="3032" started-at="2019-05-29T06:59:13Z" finished-at="2019-05-29T06:59:16Z">
+    <test name="RCM_HSMTemplate_Payloads_Test" duration-ms="3326" started-at="2019-05-29T09:58:34Z" finished-at="2019-05-29T09:58:37Z">
       <class name="rcmHSMTemplatePayloads.HSM_Template">
-        <test-method status="PASS" signature="send_hsm_template()[pri:0, instance:rcmHSMTemplatePayloads.HSM_Template@4b9e13df]" name="send_hsm_template" duration-ms="2985" started-at="2019-05-29T06:59:13Z" finished-at="2019-05-29T06:59:16Z">
+        <test-method status="PASS" signature="send_hsm_template()[pri:0, instance:rcmHSMTemplatePayloads.HSM_Template@61832929]" name="send_hsm_template" duration-ms="3250" started-at="2019-05-29T09:58:34Z" finished-at="2019-05-29T09:58:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- send_hsm_template -->
       </class> <!-- rcmHSMTemplatePayloads.HSM_Template -->
     </test> <!-- RCM_HSMTemplate_Payloads_Test -->
-    <test name="RCM_Text_Payloads_Test" duration-ms="75" started-at="2019-05-29T06:59:16Z" finished-at="2019-05-29T06:59:17Z">
+    <test name="RCM_Text_Payloads_Test" duration-ms="101" started-at="2019-05-29T09:58:37Z" finished-at="2019-05-29T09:58:37Z">
       <class name="rcmTextPayloads.Text_message">
-        <test-method status="PASS" signature="send_text()[pri:0, instance:rcmTextPayloads.Text_message@4883b407]" name="send_text" duration-ms="69" started-at="2019-05-29T06:59:16Z" finished-at="2019-05-29T06:59:17Z">
+        <test-method status="PASS" signature="send_text()[pri:0, instance:rcmTextPayloads.Text_message@754ba872]" name="send_text" duration-ms="97" started-at="2019-05-29T09:58:37Z" finished-at="2019-05-29T09:58:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- send_text -->
       </class> <!-- rcmTextPayloads.Text_message -->
     </test> <!-- RCM_Text_Payloads_Test -->
-    <test name="RCM_Image_Payloads_Test" duration-ms="136" started-at="2019-05-29T06:59:17Z" finished-at="2019-05-29T06:59:17Z">
+    <test name="RCM_Image_Payloads_Test" duration-ms="165" started-at="2019-05-29T09:58:37Z" finished-at="2019-05-29T09:58:37Z">
       <class name="rcmImagePayloads.Image_jpeg">
-        <test-method status="PASS" signature="send_image_jpeg()[pri:0, instance:rcmImagePayloads.Image_jpeg@548e7350]" name="send_image_jpeg" duration-ms="59" started-at="2019-05-29T06:59:17Z" finished-at="2019-05-29T06:59:17Z">
+        <test-method status="PASS" signature="send_image_jpeg()[pri:0, instance:rcmImagePayloads.Image_jpeg@57fffcd7]" name="send_image_jpeg" duration-ms="71" started-at="2019-05-29T09:58:37Z" finished-at="2019-05-29T09:58:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- send_image_jpeg -->
       </class> <!-- rcmImagePayloads.Image_jpeg -->
       <class name="rcmImagePayloads.Image_png">
-        <test-method status="PASS" signature="send_image_png()[pri:0, instance:rcmImagePayloads.Image_png@1a968a59]" name="send_image_png" duration-ms="55" started-at="2019-05-29T06:59:17Z" finished-at="2019-05-29T06:59:17Z">
+        <test-method status="PASS" signature="send_image_png()[pri:0, instance:rcmImagePayloads.Image_png@31ef45e3]" name="send_image_png" duration-ms="84" started-at="2019-05-29T09:58:37Z" finished-at="2019-05-29T09:58:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- send_image_png -->
       </class> <!-- rcmImagePayloads.Image_png -->
     </test> <!-- RCM_Image_Payloads_Test -->
-    <test name="RCM_Document_Payloads_Test" duration-ms="268" started-at="2019-05-29T06:59:17Z" finished-at="2019-05-29T06:59:17Z">
+    <test name="RCM_Document_Payloads_Test" duration-ms="496" started-at="2019-05-29T09:58:37Z" finished-at="2019-05-29T09:58:38Z">
       <class name="rcmDoccumnetPayloads.Document_docs">
-        <test-method status="PASS" signature="send_document_docs()[pri:0, instance:rcmDoccumnetPayloads.Document_docs@239963d8]" name="send_document_docs" duration-ms="59" started-at="2019-05-29T06:59:17Z" finished-at="2019-05-29T06:59:17Z">
+        <test-method status="PASS" signature="send_document_docs()[pri:0, instance:rcmDoccumnetPayloads.Document_docs@59ec2012]" name="send_document_docs" duration-ms="92" started-at="2019-05-29T09:58:37Z" finished-at="2019-05-29T09:58:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- send_document_docs -->
       </class> <!-- rcmDoccumnetPayloads.Document_docs -->
       <class name="rcmDoccumnetPayloads.Document_Xls">
-        <test-method status="PASS" signature="send_document_xls()[pri:0, instance:rcmDoccumnetPayloads.Document_Xls@31ef45e3]" name="send_document_xls" duration-ms="49" started-at="2019-05-29T06:59:17Z" finished-at="2019-05-29T06:59:17Z">
+        <test-method status="PASS" signature="send_document_xls()[pri:0, instance:rcmDoccumnetPayloads.Document_Xls@3fee9989]" name="send_document_xls" duration-ms="97" started-at="2019-05-29T09:58:38Z" finished-at="2019-05-29T09:58:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- send_document_xls -->
       </class> <!-- rcmDoccumnetPayloads.Document_Xls -->
       <class name="rcmDoccumnetPayloads.Document_ppt">
-        <test-method status="PASS" signature="send_document_ppt()[pri:0, instance:rcmDoccumnetPayloads.Document_ppt@57fffcd7]" name="send_document_ppt" duration-ms="66" started-at="2019-05-29T06:59:17Z" finished-at="2019-05-29T06:59:17Z">
+        <test-method status="PASS" signature="send_document_ppt()[pri:0, instance:rcmDoccumnetPayloads.Document_ppt@2f686d1f]" name="send_document_ppt" duration-ms="146" started-at="2019-05-29T09:58:38Z" finished-at="2019-05-29T09:58:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- send_document_ppt -->
       </class> <!-- rcmDoccumnetPayloads.Document_ppt -->
       <class name="rcmDoccumnetPayloads.Document_Pdf">
-        <test-method status="PASS" signature="send_document_pdf()[pri:0, instance:rcmDoccumnetPayloads.Document_Pdf@3abbfa04]" name="send_document_pdf" duration-ms="82" started-at="2019-05-29T06:59:17Z" finished-at="2019-05-29T06:59:17Z">
+        <test-method status="PASS" signature="send_document_pdf()[pri:0, instance:rcmDoccumnetPayloads.Document_Pdf@4cf777e8]" name="send_document_pdf" duration-ms="145" started-at="2019-05-29T09:58:37Z" finished-at="2019-05-29T09:58:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- send_document_pdf -->
       </class> <!-- rcmDoccumnetPayloads.Document_Pdf -->
     </test> <!-- RCM_Document_Payloads_Test -->
-    <test name="RCM_Audio_Payloads_Test" duration-ms="1688" started-at="2019-05-29T06:59:17Z" finished-at="2019-05-29T06:59:19Z">
+    <test name="RCM_Audio_Payloads_Test" duration-ms="2260" started-at="2019-05-29T09:58:38Z" finished-at="2019-05-29T09:58:40Z">
       <class name="rcmAudioPayloads.Audio_amr">
-        <test-method status="PASS" signature="send_audio_amr()[pri:0, instance:rcmAudioPayloads.Audio_amr@3fee9989]" name="send_audio_amr" duration-ms="74" started-at="2019-05-29T06:59:18Z" finished-at="2019-05-29T06:59:18Z">
+        <test-method status="PASS" signature="send_audio_amr()[pri:0, instance:rcmAudioPayloads.Audio_amr@72d818d1]" name="send_audio_amr" duration-ms="95" started-at="2019-05-29T09:58:39Z" finished-at="2019-05-29T09:58:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- send_audio_amr -->
       </class> <!-- rcmAudioPayloads.Audio_amr -->
       <class name="rcmAudioPayloads.Audio_aac">
-        <test-method status="PASS" signature="send_audio_aac()[pri:0, instance:rcmAudioPayloads.Audio_aac@4cf777e8]" name="send_audio_aac" duration-ms="410" started-at="2019-05-29T06:59:17Z" finished-at="2019-05-29T06:59:17Z">
+        <test-method status="PASS" signature="send_audio_aac()[pri:0, instance:rcmAudioPayloads.Audio_aac@56ac3a89]" name="send_audio_aac" duration-ms="579" started-at="2019-05-29T09:58:38Z" finished-at="2019-05-29T09:58:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- send_audio_aac -->
       </class> <!-- rcmAudioPayloads.Audio_aac -->
       <class name="rcmAudioPayloads.Audio_mp3">
-        <test-method status="PASS" signature="send_audio_mp3()[pri:0, instance:rcmAudioPayloads.Audio_mp3@7085bdee]" name="send_audio_mp3" duration-ms="197" started-at="2019-05-29T06:59:18Z" finished-at="2019-05-29T06:59:18Z">
+        <test-method status="PASS" signature="send_audio_mp3()[pri:0, instance:rcmAudioPayloads.Audio_mp3@59494225]" name="send_audio_mp3" duration-ms="293" started-at="2019-05-29T09:58:39Z" finished-at="2019-05-29T09:58:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- send_audio_mp3 -->
       </class> <!-- rcmAudioPayloads.Audio_mp3 -->
       <class name="rcmAudioPayloads.Audio_acc">
-        <test-method status="PASS" signature="send_audio_acc()[pri:0, instance:rcmAudioPayloads.Audio_acc@2f686d1f]" name="send_audio_acc" duration-ms="170" started-at="2019-05-29T06:59:17Z" finished-at="2019-05-29T06:59:18Z">
+        <test-method status="PASS" signature="send_audio_acc()[pri:0, instance:rcmAudioPayloads.Audio_acc@27c20538]" name="send_audio_acc" duration-ms="216" started-at="2019-05-29T09:58:38Z" finished-at="2019-05-29T09:58:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- send_audio_acc -->
       </class> <!-- rcmAudioPayloads.Audio_acc -->
       <class name="rcmAudioPayloads.Audio_opus">
-        <test-method status="PASS" signature="send_audio_opus()[pri:0, instance:rcmAudioPayloads.Audio_opus@1ce92674]" name="send_audio_opus" duration-ms="494" started-at="2019-05-29T06:59:18Z" finished-at="2019-05-29T06:59:19Z">
+        <test-method status="PASS" signature="send_audio_opus()[pri:0, instance:rcmAudioPayloads.Audio_opus@6e1567f1]" name="send_audio_opus" duration-ms="643" started-at="2019-05-29T09:58:39Z" finished-at="2019-05-29T09:58:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- send_audio_opus -->
       </class> <!-- rcmAudioPayloads.Audio_opus -->
       <class name="rcmAudioPayloads.Audio_m4a">
-        <test-method status="PASS" signature="send_audio_m4a()[pri:0, instance:rcmAudioPayloads.Audio_m4a@73ad2d6]" name="send_audio_m4a" duration-ms="331" started-at="2019-05-29T06:59:18Z" finished-at="2019-05-29T06:59:18Z">
+        <test-method status="PASS" signature="send_audio_m4a()[pri:0, instance:rcmAudioPayloads.Audio_m4a@6e06451e]" name="send_audio_m4a" duration-ms="419" started-at="2019-05-29T09:58:39Z" finished-at="2019-05-29T09:58:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- send_audio_m4a -->
       </class> <!-- rcmAudioPayloads.Audio_m4a -->
     </test> <!-- RCM_Audio_Payloads_Test -->
-    <test name="RCM_Location_Payloads_Test" duration-ms="50" started-at="2019-05-29T06:59:19Z" finished-at="2019-05-29T06:59:19Z">
+    <test name="RCM_Location_Payloads_Test" duration-ms="73" started-at="2019-05-29T09:58:40Z" finished-at="2019-05-29T09:58:40Z">
       <class name="rcmLocationPayloads.Location_Message">
-        <test-method status="PASS" signature="send_location()[pri:0, instance:rcmLocationPayloads.Location_Message@1e397ed7]" name="send_location" duration-ms="46" started-at="2019-05-29T06:59:19Z" finished-at="2019-05-29T06:59:19Z">
+        <test-method status="PASS" signature="send_location()[pri:0, instance:rcmLocationPayloads.Location_Message@25bbe1b6]" name="send_location" duration-ms="71" started-at="2019-05-29T09:58:40Z" finished-at="2019-05-29T09:58:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- send_location -->

@@ -7,6 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import rcmUtility.BaseProperties;
@@ -60,15 +61,17 @@ public class Document_Xls extends BaseProperties {
 			"}\r\n" + 
 			"";
 	
-
 	request.body(requestBody.toString());				// Getting string body from the request body and passing into the request
 	Response response = request.post("/sendMessage");	// Here sending the request & store the response values in the response variable
-	int statusCode = response.getStatusCode();			// Getting statuscode from response and stored in a Integer variable
-	Assert.assertEquals(statusCode, 200);				// Doing assertion for the statuscode
+	JsonPath jsonPathEvaluator = response.jsonPath();	// Parsing JSON response using JsonPath
+	String statusCode = jsonPathEvaluator.get("statusCode");			// Getting statusCode from response and stored in a String variable
+	Assert.assertEquals(statusCode, "200");				// Doing assertion for the statuscode
 	System.out.println("Received Response Code is:" +statusCode);
-	String statusDesc = response.jsonPath().getString("statusDesc");
+	String statusDesc = jsonPathEvaluator.get("statusDesc");	// Getting statusDesc from response and stored in a String variable
 	Assert.assertEquals(statusDesc, "Successfully Accepted"); //Doing assertion for the status description
 	System.out.println("Received Response Description is:" +statusDesc);
+	String mid = jsonPathEvaluator.get("mid");		// Getting mid from response and stored in a String variable
+	System.out.println("Received Response mid is:" +mid);
 		 
 		
 	}
