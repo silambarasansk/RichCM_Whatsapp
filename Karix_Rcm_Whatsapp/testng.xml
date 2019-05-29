@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Karix_RCM_Whatsapp_Test_Suite">
+
+  <test thread-count="5" name="RCM_HSMTemplate_Payloads_Test">
+    <classes>
+      <class name="rcmHSMTemplatePayloads.HSM_Template"/>
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="RCM_Text_Payloads_Test">
+    <classes>
+      <class name="rcmTextPayloads.Text_message"/>
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="RCM_Image_Payloads_Test">
+    <classes>
+      <class name="rcmImagePayloads.Image_jpeg"/>
+      <class name="rcmImagePayloads.Image_png"/>
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="RCM_Document_Payloads_Test">
+    <classes>
+      <class name="rcmDoccumnetPayloads.Document_docs"/>
+      <class name="rcmDoccumnetPayloads.Document_Pdf"/>
+      <class name="rcmDoccumnetPayloads.Document_ppt"/>
+      <class name="rcmDoccumnetPayloads.Document_Xls"/>
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="RCM_Audio_Payloads_Test">
+    <classes>
+      <class name="rcmAudioPayloads.Audio_aac"/>
+      <class name="rcmAudioPayloads.Audio_acc"/>
+      <class name="rcmAudioPayloads.Audio_amr"/>
+      <class name="rcmAudioPayloads.Audio_m4a"/>
+      <class name="rcmAudioPayloads.Audio_mp3"/>
+      <class name="rcmAudioPayloads.Audio_opus"/>
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="RCM_Location_Payloads_Test">
+    <classes>
+      <class name="rcmLocationPayloads.Location_Message"/>
+    </classes>
+  </test>
+   <!-- Test -->
+</suite> <!-- Suite -->

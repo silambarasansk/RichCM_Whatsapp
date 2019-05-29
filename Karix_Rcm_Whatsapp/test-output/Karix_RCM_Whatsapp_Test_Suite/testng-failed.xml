@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Karix_RCM_Whatsapp_Test_Suite]">
+  <test thread-count="5" name="RCM_HSMTemplate_Payloads_Test(failed)">
+    <classes>
+      <class name="rcmHSMTemplatePayloads.HSM_Template">
+        <methods>
+          <include name="send_hsm_template"/>
+        </methods>
+      </class> <!-- rcmHSMTemplatePayloads.HSM_Template -->
+    </classes>
+  </test> <!-- RCM_HSMTemplate_Payloads_Test(failed) -->
+  <test thread-count="5" name="RCM_Text_Payloads_Test(failed)">
+    <classes>
+      <class name="rcmTextPayloads.Text_message">
+        <methods>
+          <include name="send_text"/>
+        </methods>
+      </class> <!-- rcmTextPayloads.Text_message -->
+    </classes>
+  </test> <!-- RCM_Text_Payloads_Test(failed) -->
+  <test thread-count="5" name="RCM_Image_Payloads_Test(failed)">
+    <classes>
+      <class name="rcmImagePayloads.Image_png">
+        <methods>
+          <include name="send_image_png"/>
+        </methods>
+      </class> <!-- rcmImagePayloads.Image_png -->
+      <class name="rcmImagePayloads.Image_jpeg">
+        <methods>
+          <include name="send_image_jpeg"/>
+        </methods>
+      </class> <!-- rcmImagePayloads.Image_jpeg -->
+    </classes>
+  </test> <!-- RCM_Image_Payloads_Test(failed) -->
+  <test thread-count="5" name="RCM_Document_Payloads_Test(failed)">
+    <classes>
+      <class name="rcmDoccumnetPayloads.Document_Xls">
+        <methods>
+          <include name="send_document_xls"/>
+        </methods>
+      </class> <!-- rcmDoccumnetPayloads.Document_Xls -->
+      <class name="rcmDoccumnetPayloads.Document_ppt">
+        <methods>
+          <include name="send_document_ppt"/>
+        </methods>
+      </class> <!-- rcmDoccumnetPayloads.Document_ppt -->
+      <class name="rcmDoccumnetPayloads.Document_Pdf">
+        <methods>
+          <include name="send_document_pdf"/>
+        </methods>
+      </class> <!-- rcmDoccumnetPayloads.Document_Pdf -->
+      <class name="rcmDoccumnetPayloads.Document_docs">
+        <methods>
+          <include name="send_document_docs"/>
+        </methods>
+      </class> <!-- rcmDoccumnetPayloads.Document_docs -->
+    </classes>
+  </test> <!-- RCM_Document_Payloads_Test(failed) -->
+  <test thread-count="5" name="RCM_Audio_Payloads_Test(failed)">
+    <classes>
+      <class name="rcmAudioPayloads.Audio_aac">
+        <methods>
+          <include name="send_audio_aac"/>
+        </methods>
+      </class> <!-- rcmAudioPayloads.Audio_aac -->
+      <class name="rcmAudioPayloads.Audio_acc">
+        <methods>
+          <include name="send_audio_acc"/>
+        </methods>
+      </class> <!-- rcmAudioPayloads.Audio_acc -->
+      <class name="rcmAudioPayloads.Audio_m4a">
+        <methods>
+          <include name="send_audio_m4a"/>
+        </methods>
+      </class> <!-- rcmAudioPayloads.Audio_m4a -->
+      <class name="rcmAudioPayloads.Audio_mp3">
+        <methods>
+          <include name="send_audio_mp3"/>
+        </methods>
+      </class> <!-- rcmAudioPayloads.Audio_mp3 -->
+      <class name="rcmAudioPayloads.Audio_opus">
+        <methods>
+          <include name="send_audio_opus"/>
+        </methods>
+      </class> <!-- rcmAudioPayloads.Audio_opus -->
+      <class name="rcmAudioPayloads.Audio_amr">
+        <methods>
+          <include name="send_audio_amr"/>
+        </methods>
+      </class> <!-- rcmAudioPayloads.Audio_amr -->
+    </classes>
+  </test> <!-- RCM_Audio_Payloads_Test(failed) -->
+  <test thread-count="5" name="RCM_Location_Payloads_Test(failed)">
+    <classes>
+      <class name="rcmLocationPayloads.Location_Message">
+        <methods>
+          <include name="send_location"/>
+        </methods>
+      </class> <!-- rcmLocationPayloads.Location_Message -->
+    </classes>
+  </test> <!-- RCM_Location_Payloads_Test(failed) -->
+</suite> <!-- Failed suite [Karix_RCM_Whatsapp_Test_Suite] -->
